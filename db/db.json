@@ -29,19 +29,5 @@
             "id": 3,
             "name": "ea molestias quasi exercitationem repellat qui ipsa sit aut"
         }
-    ],
-    "money": {
-        "debet" : [
-            {
-                "id": 1,
-                "summ": 450
-            }
-        ],
-        "credet" : [
-            {
-                "id": 1,
-                "summ": 750
-            }
-        ]
-    }
+    ]
 }
