@@ -12,6 +12,7 @@ server.use(
 		"/api/*": "/$1",
 	})
 );
+server.use("/money", jsonServer.static(__dirname + "/money.json"));
 server.use(router);
 server.listen(3000, () => {
 	console.log("JSON Server is running");
